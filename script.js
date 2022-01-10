@@ -30,7 +30,7 @@ async function getdata(url) {
         document.getElementById("color").style.backgroundColor = "yellow";
         document.getElementById("status").innerHTML = ` <i class="fa fa-check " aria-hidden="true"></i> Number is valid`;
       } else {
-        document.getElementById("color").style.backgroundColor = "white";
+        document.getElementById("color").style.backgroundColor = "red";
         document.getElementById("status").innerHTML = `<i class="fa fa-times " aria-hidden="true"></i> Number is invalid`;
       }
     reset();
